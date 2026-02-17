@@ -1,6 +1,4 @@
 # ImageValidatingPolicy: verify GitHub Artifact Attestation (SPDX SBOM).
-# Aligned with Luc's testbed: https://github.com/lucchmielowski/kyverno-cosign-testbed
-# No validationConfigurations; exact subject for refs/heads/main.
 apiVersion: policies.kyverno.io/v1
 kind: ImageValidatingPolicy
 metadata:
